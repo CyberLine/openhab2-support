@@ -1,0 +1,25 @@
+<idea-plugin>
+    <id>org.cyberline.openhab2</id>
+    <name>Openhab2 Support</name>
+    <vendor email="openhab@quadrat4.de" url="https://openhab.quadrat4.de">Quadrat.4</vendor>
+
+    <description><![CDATA[
+    Enter short description for your plugin here.<br>
+    <em>most HTML tags may be used</em>
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <fileType name="Openhab2 Items" implementationClass="org.intellij.sdk.language.ItemsFileType"
+                  fieldName="INSTANCE" language="Items" extensions="items"/>
+        <fileType name="Openhab2 Things" implementationClass="org.intellij.sdk.language.ThingsFileType"
+                  fieldName="INSTANCE" language="Things" extensions="things"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
