@@ -13,10 +13,20 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <fileType name="Openhab2 Items" implementationClass="org.intellij.sdk.language.ItemsFileType"
+        <fileType name="Openhab2 Items File" implementationClass="org.intellij.sdk.language.ItemsFileType"
                   fieldName="INSTANCE" language="Items" extensions="items"/>
-        <fileType name="Openhab2 Things" implementationClass="org.intellij.sdk.language.ThingsFileType"
+        <fileType name="Openhab2 Things File" implementationClass="org.intellij.sdk.language.ThingsFileType"
                   fieldName="INSTANCE" language="Things" extensions="things"/>
+        <fileType name="Openhab2 Perist File" implementationClass="org.intellij.sdk.language.PersistFileType"
+                  fieldName="INSTANCE" language="Persist" extensions="persist"/>
+        <fileType name="Openhab2 Rules File" implementationClass="org.intellij.sdk.language.RulesFileType"
+                  fieldName="INSTANCE" language="Rules" extensions="rules"/>
+        <fileType name="Openhab2 Scripts File" implementationClass="org.intellij.sdk.language.ScriptsFileType"
+                  fieldName="INSTANCE" language="Scripts" extensions="scripts"/>
+        <fileType name="Openhab2 Services File" implementationClass="org.intellij.sdk.language.ServicesFileType"
+                  fieldName="INSTANCE" language="Services" extensions="services"/>
+        <fileType name="Openhab2 Sitemaps File" implementationClass="org.intellij.sdk.language.SitemapsFileType"
+                  fieldName="INSTANCE" language="Sitemaps" extensions="sitemap"/>
     </extensions>
 
     <actions>
