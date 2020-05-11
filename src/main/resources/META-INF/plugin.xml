@@ -1,11 +1,11 @@
 <idea-plugin>
     <id>org.cyberline.openhab2</id>
     <name>Openhab2 Support</name>
-    <vendor email="openhab@quadrat4.de" url="https://openhab.quadrat4.de">Quadrat.4</vendor>
+    <vendor email="openhab@quadrat4.de" url="https://github.com/CyberLine/openhab2-support">Alexander Over</vendor>
 
     <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
+    Openhab2 Home Automation System Filesupport and Syntax Highlighting<br /><br />
+    <a href="https://www.openhab.org/">OpenHab Homepage</a>
     ]]></description>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
