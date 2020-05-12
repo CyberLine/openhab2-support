@@ -4,8 +4,8 @@
     <vendor email="openhab@quadrat4.de" url="https://github.com/CyberLine/openhab2-support">Alexander Over</vendor>
 
     <description><![CDATA[
-    Openhab2 Home Automation System Filesupport and Syntax Highlighting<br /><br />
-    <a href="https://www.openhab.org/">OpenHab Homepage</a>
+        Openhab2 Home Automation System Filesupport and Syntax Highlighting<br /><br />
+        <a href="https://www.openhab.org/">OpenHab Homepage</a>
     ]]></description>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
@@ -17,7 +17,7 @@
                   fieldName="INSTANCE" language="Items" extensions="items"/>
         <fileType name="Openhab2 Things File" implementationClass="org.intellij.sdk.language.ThingsFileType"
                   fieldName="INSTANCE" language="Things" extensions="things"/>
-        <fileType name="Openhab2 Perist File" implementationClass="org.intellij.sdk.language.PersistFileType"
+        <fileType name="Openhab2 Persist File" implementationClass="org.intellij.sdk.language.PersistFileType"
                   fieldName="INSTANCE" language="Persist" extensions="persist"/>
         <fileType name="Openhab2 Rules File" implementationClass="org.intellij.sdk.language.RulesFileType"
                   fieldName="INSTANCE" language="Rules" extensions="rules"/>
